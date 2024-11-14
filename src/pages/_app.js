@@ -1,5 +1,10 @@
-import "@/styles/globals.css";
+// src/pages/_app.js
+import '../style/globals.css';
 
-export default function App({ Component, pageProps }) {
+ // Adjust the path if needed
+
+function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;
 }
+
+export default MyApp;
